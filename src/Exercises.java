@@ -64,6 +64,17 @@ public class Exercises {
         System.out.println(1+2+3+4+5+6+7+8+9+10);
 
 
+         /*1.12  assume that a runner runs 24 miles in 1 hour 40 minutes and 35 second. write a program that displays
+        the average speed in kilometers per hour (note 1 mile is equal to 1.6 kilometer)
+         */
+        System.out.println("exercise 1.12");
+
+        double distanceMiles = 24;
+        double timeSeconds = 6035;
+        double distanceKilometers = distanceMiles *1.6;
+
+        double result = distanceKilometers / (timeSeconds / 60 / 60);
+        System.out.println("the runners average speed was =" + result +" Km/h");
 
 
     }
