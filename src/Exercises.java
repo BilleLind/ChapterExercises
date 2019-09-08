@@ -50,7 +50,11 @@ public class Exercises {
         System.out.println("4   16      64      256 ");
 
 
+        //1.5 write a program that displays the result of
+        System.out.println("exercise 1.5");
 
+        System.out.println("(7.5 * 6.5 - 4.5 * 3) / (47.5 - 5.5) =");
+        System.out.println((7.5 * 6.5 - 4.5 * 3) / 47.5 - 5.5);
 
 
 
