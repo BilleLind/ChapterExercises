@@ -7,6 +7,10 @@ public class Exercises {
         System.out.println(" Learning Java now");
         System.out.println("Programming is Fun");
 
+        //1.2 write a program that displays "I love Java" five times
+        int i;
+        for (i = 0; i < 5; i++)
+            System.out.println("I love java");
 
 
 
