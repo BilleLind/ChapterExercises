@@ -30,7 +30,7 @@ public class Exercises {
 
         // 1.4 Print a table that displays the following table
         System.out.println("exercise 1.4");
-
+        /* failed try for 1.4
         final Object[][] table = new String[5][];
         table[0] = new String[]{"a", "a^2", "a^3", "a^4"};
         table[1] = new String[]{"1", "1", "1", "1"};
@@ -41,6 +41,15 @@ public class Exercises {
         for (final Object[] row : table) {
             System.out.format("%15s%15s%15s\n", row);
         }
+                 */
+
+        System.out.println("a   a^2     a^3     a^4 ");
+        System.out.println("1   1       1       1   ");
+        System.out.println("2   4       8       16  ");
+        System.out.println("3   9       26      81  ");
+        System.out.println("4   16      64      256 ");
+
+
 
 
 
