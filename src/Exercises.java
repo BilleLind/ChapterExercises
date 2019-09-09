@@ -69,11 +69,11 @@ public class Exercises {
          */
         System.out.println("exercise 1.12");
 
-        double distanceMiles = 24;
-        double timeSeconds = 6035;
-        double distanceKilometers = distanceMiles *1.6;
+        float distanceMiles = 24;
+        float timeSeconds = 6035;
+        float distanceKilometers = (float) (distanceMiles *1.6);
 
-        double result = distanceKilometers / (timeSeconds / 60 / 60);
+        float result = distanceKilometers / (timeSeconds / 60 / 60);
         System.out.println("the runners average speed was =" + result +" Km/h");
 
 
