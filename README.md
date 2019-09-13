@@ -1,5 +1,5 @@
 # ChapterExercises
-chapther 1 exercises 
+chapter 1 exercises 
 - 1.1
 - 1.2
 - 1.3
@@ -8,7 +8,7 @@ chapther 1 exercises
 - 1.6
 - 1.12
 
-chapther 2 exercises
+chapter 2 exercises
 - 2.1
 - 2.2
 - 2.3
