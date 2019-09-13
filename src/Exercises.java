@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Exercises {
     public static void main(String[] args) {
 
@@ -75,6 +77,59 @@ public class Exercises {
 
         float result = distanceKilometers / (timeSeconds / 60 / 60);
         System.out.println("the runners average speed was =" + result +" Km/h");
+
+
+        //chapter 2 exercises
+        System.out.println("exercise 2.1");
+                                                    System.out.println(" "); // space
+        Scanner input =new Scanner(System.in);
+
+        System.out.println("enter miles ");
+        double miles = input.nextDouble();
+        double kilometers = miles * 1.6;
+
+        System.out.println(kilometers + " kilometers" );
+                                                    System.out.println("  ");
+
+        System.out.println("exercise 2.2");
+                                                    System.out.println(" ");
+         double area;
+         double height;
+         double width;
+        System.out.println("Enter length of the sides and height of the Equilateral");
+            width = input.nextDouble();
+        System.out.println("enter the height of the prism ");
+            height =input.nextDouble();
+            area = ((Math.sqrt(3))/4)*(Math.pow(width,2));
+        System.out.println("The area is = " + area);
+        System.out.println("Volume of the triangular prism =" + area * height);
+
+
+        System.out.println(" exercise 2.3 ");
+                                                        System.out.println(" "); // space
+        double meter;
+        double feet = 3.2786;
+        System.out.println("Enter a value for meter");
+            meter =input.nextDouble();
+        System.out.println(meter + "meters is" + (meter * feet) + " feet");
+
+        System.out.println("exercise 2.12");
+        double v;
+        double a;
+
+
+        System.out.println(" enter speed and acceleration");
+        v = input.nextDouble();
+        a = input.nextDouble();
+        double lenght =((Math.pow(v,2))/(2 * a));
+        System.out.println("The minimun runway lenght for this airplane is "+ lenght);
+
+                                                    System.out.println(" ");
+        System.out.println(" 2.17 ");
+        
+
+
+        //2.23
 
 
     }
