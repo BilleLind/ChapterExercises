@@ -126,8 +126,14 @@ public class Exercises {
 
                                                     System.out.println(" ");
         System.out.println(" 2.17 ");
-        
-
+        double tempOutside;
+        double windSpeed;
+        System.out.println("Enter the temperature in Fahrenheit between -58 F and 41 F");
+        tempOutside =input.nextDouble();
+        System.out.println("Enter the wind speed (>=2) in miles per hour :");
+        windSpeed =input.nextDouble();
+        double windChill = 35.74 + 0.6215 * tempOutside - 35.75 * Math.pow(v, 0.16) + 0.4275 * tempOutside * Math.pow(v, 0.16);
+        System.out.println("The wind chill index is : " + windChill);
 
         //2.23
 
