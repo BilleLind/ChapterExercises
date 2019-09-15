@@ -136,7 +136,19 @@ public class Exercises {
         System.out.println("The wind chill index is : " + windChill);
 
         //2.23
-
+                                                        System.out.println("");
+        System.out.println("exercise 2.23 ");
+        double drivingDistance;
+        double milesPerGallon;
+        double pricePerGallon;
+        System.out.println("Enter the driving distance : " );
+        drivingDistance =input.nextDouble();
+        System.out.println("Enther miles per gallon : " );
+        milesPerGallon =input.nextDouble();
+        System.out.println("Enthe the price per gallong : " );
+        pricePerGallon =input.nextDouble();
+        double cost = (drivingDistance / milesPerGallon) *pricePerGallon;
+        System.out.println("The cost of driving is $" + cost);
 
     }
 }
