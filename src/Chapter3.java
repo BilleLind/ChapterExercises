@@ -131,7 +131,47 @@ public class Chapter3 {
         } else System.out.println("Wrong quess");
 
         //3.24
+        int kind = (int) (Math.random()*3);
+        int rank = (int) (Math.random()*12);
 
+        String kinds;
+        String ranks;
+
+        if (kind == 0) {
+            kinds = "Clubs";
+        } else if (kind==1) {
+            kinds = "Diamonds";
+        }else if (kind==2) {
+            kinds = "Hearts";
+        }else {kinds = "Spades";}
+
+        if (rank==0) {
+            ranks = "ace";
+        }else if (rank==1) {
+            ranks = "2";
+        }else if (rank==2) {
+            ranks = "3";
+        }else if (rank==3) {
+            ranks = "4";
+        }else if (rank==4) {
+            ranks = "5";
+        }else if (rank==5) {
+            ranks = "6";
+        }else if (rank==6) {
+            ranks = "7";
+        }else if (rank==7) {
+            ranks = "8";
+        }else if (rank==8) {
+            ranks = "9";
+        }else if (rank==9) {
+            ranks = "10";
+        }else if (rank==10) {
+            ranks = "Jack";
+        }else if (rank==11) {
+            ranks = "Queen";
+        }else {ranks = "King";}
+
+        System.out.println("The card you picked is " + ranks + " of " + kinds);
 
 
 
