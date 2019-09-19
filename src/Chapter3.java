@@ -173,6 +173,15 @@ public class Chapter3 {
 
         System.out.println("The card you picked is " + ranks + " of " + kinds);
 
+        //3.35
+        System.out.println("Enter an integer : ");
+        int integer = input.nextInt();
+
+        if (integer%2==0) {
+            System.out.println(integer + " is a even number" );
+        }else {
+            System.out.println(integer + " is a odd number");}
+
 
 
 
