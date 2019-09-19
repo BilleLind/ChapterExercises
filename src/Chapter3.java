@@ -117,6 +117,20 @@ public class Chapter3 {
         } else {System.out.println("Obese");}
 
 
+        // 3.14
+        int number;
+        int quess;
+
+        number = (int) (Math.random()*2);
+
+        System.out.println("Please quess if it is heads (0) or tails (1)");
+        quess =input.nextInt();
+
+        if (quess==number) {
+            System.out.println("Correct quess");
+        } else System.out.println("Wrong quess");
+
+        //3.24
 
 
 
